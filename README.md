@@ -8,5 +8,5 @@
 - Adicionando estrutura inicial no main.py
 
 ### v.0.3 (27/11/2025)
--Implementação de listas para armazenar múltiplas vendas.
--Cálculo automático de total e média
+- Implementação de listas para armazenar múltiplas vendas.
+- Cálculo automático de total e média
