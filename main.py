@@ -1,10 +1,10 @@
-# Projeto Análise de Vendas
+vendas = [100.5, 112.9, 75.48, 66.99, 17.12, 70.0]
 
-nome_produto = "Cadeira Gamer"
-preco_produto = 899.90
-quant_vendas = 7
+total_vendas = sum(vendas)
+qtd_vendas = len(vendas)
 
-print("===== CUPOM FISCAL =====")
-print("Produto: ", nome_produto)
-print("Preço: ", preco_produto)
-print("Total Vendas: ", quant_vendas)
+media_vendas = total_vendas / qtd_vendas
+
+print("----- Relatório de Vendas -----")
+print("Total de Vendas: R$", total_vendas)
+print("Ticket Médio: R$", media_vendas)
